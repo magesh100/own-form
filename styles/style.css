@@ -23,7 +23,7 @@ placeholder{
   border-radius: 10px;
   background-color: white;
   padding:1rem;
-  box-shadow:10px 20px rgba(218, 17, 17, 0.3) ;
+  
   overflow:hidden ;
 }
 h2{
@@ -62,5 +62,14 @@ button{
   padding:1rem;
 }
 
-
+@media screen and (max-width:768px){
+  
+  .btn{
+    width:80%;
+    padding-bottom:1rem;
+  }
+  .card{
+    height:70vh;
+  }
+}
 
