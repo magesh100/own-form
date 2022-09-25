@@ -31,7 +31,7 @@ h2{
   padding-bottom: 1rem;
 }
 .form-control{
-  padding:15px;
+  padding:5px;
   margin-left:5px;
   margin-right:5px; 
 }
@@ -41,6 +41,7 @@ h2{
   padding-right: 1rem;
   padding:1rem;
   margin-top:1rem ;
+  margin-bottom:0.5rem ;
   
 }
 .form-el label{
@@ -61,11 +62,22 @@ button{
 .form-el{
   padding:1rem;
 }
+.form-el span{
+  margin-top:2rem;
+  color:red;
+}
+  #submit-error{
+color:red;
+}
+.form-el span i{
+  color:green;
+  
+}
 
 @media screen and (max-width:768px){
   
   .btn{
-    width:80%;
+    width:88%;
     padding-bottom:1rem;
   }
   .card{
